@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小说下载器</string>
+    <string name="no_more_data">没有更多数据了</string>
+    <string name="loading">正在加载中...</string>
+    <string name="test">测试</string>
+    <string name="title_app">老表倾情奉献</string>
+    <string name="allow_use_mobile_net">允许使用手机网络下载</string>
+    <string name="disallow_use_mobile_net">仅使用WiFi下载</string>
+    <string name="setting">设置</string>
+</resources>

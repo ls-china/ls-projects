@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="media_downloader:war">
+    <output-path>$PROJECT_DIR$/app/media_downloader/target</output-path>
+    <root id="archive" name="media_downloader-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="media_downloader:war exploded" />
+    </root>
+  </artifact>
+</component>

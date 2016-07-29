@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="bs-core" />
+        <module name="bs-extention" />
+        <module name="bs-ui" />
+        <module name="bs-user" />
+        <module name="down-txt-server" />
+        <module name="media_downloader" />
+        <module name="mongodb" />
+        <module name="run-down-txt-war" />
+        <module name="server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bs-core" target="1.7" />
+      <module name="bs-extention" target="1.7" />
+      <module name="bs-ui" target="1.7" />
+      <module name="bs-user" target="1.7" />
+      <module name="down-txt-server" target="1.7" />
+      <module name="ls-projects" target="1.7" />
+      <module name="media_downloader" target="1.7" />
+      <module name="mongodb" target="1.7" />
+      <module name="run-down-txt-war" target="1.7" />
+      <module name="server" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

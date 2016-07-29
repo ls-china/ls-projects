@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_list_item"
+    android:paddingBottom="@dimen/item_artical_padding_v"
+    android:paddingLeft="@dimen/item_artical_padding_h"
+    android:paddingRight="@dimen/item_artical_padding_h"
+    android:paddingTop="@dimen/item_artical_padding_v">
+
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="@dimen/item_artical_icon_width"
+        android:layout_height="@dimen/item_artical_icon_height" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_artical_icon_height"
+        android:layout_toRightOf="@android:id/icon"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_artical_title_height"
+            android:gravity="center_vertical"
+            android:text="@string/test"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/list_common_text_padding"
+            android:text="@string/test"
+            android:textSize="@dimen/list_common_text_size" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/list_common_text_padding"
+            android:text="@string/test"
+            android:textSize="@dimen/list_common_text_size" />
+
+        <TextView
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/list_common_text_padding"
+            android:text="@string/test"
+            android:textSize="@dimen/list_common_text_size" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/list_common_text_padding"
+            android:text="@string/test"
+            android:textSize="@dimen/list_common_text_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/describtion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@android:id/icon"
+        android:padding="@dimen/list_common_text_padding"
+        android:text="@string/test"
+        android:textSize="@dimen/list_common_text_size" />
+
+</RelativeLayout>

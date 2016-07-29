@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DownloadTxt</string>
+    <string name="no_more_data">No More Data</string>
+    <string name="test">test</string>
+    <string name="loading">Loading</string>
+    <string name="title_app">Download Txt</string>
+    <string name="allow_use_mobile_net">Allow Download Use Mobile Net</string>
+    <string name="disallow_use_mobile_net">Disallow Download Use Mobile Net</string>
+    <string name="setting">Setting</string>
+</resources>

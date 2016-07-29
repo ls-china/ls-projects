@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/ab_main" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <!--<android.support.v4.widget.SwipeRefreshLayout-->
+            <!--android:id="@+id/srl"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+        <com.ls.downloadtxt.ui.widget.RefreshLayout
+            android:id="@+id/srl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:dividerHeight="5dp"
+                android:listSelector="@drawable/s_list_selector" />
+        <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+        </com.ls.downloadtxt.ui.widget.RefreshLayout>
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/no_more_data" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+

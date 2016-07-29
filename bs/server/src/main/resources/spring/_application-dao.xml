@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+	   http://www.springframework.org/schema/context
+	   http://www.springframework.org/schema/context/spring-context.xsd
+	   http://www.springframework.org/schema/jee
+	   http://www.springframework.org/schema/jee/spring-jee.xsd
+	   http://www.springframework.org/schema/lang
+	   http://www.springframework.org/schema/lang/spring-lang.xsd">
+
+    <context:property-placeholder location="classpath*:spring/prop/mongo.properties" />
+
+    <!-- mongoDB的配置对象 -->
+    <bean id="mongoOptionsDto" class="com.infinite.framework.core.persistent.MongoClientOptionsDto">
+    </bean>
+
+    <!-- 使用工厂创建mongo实例 -->
+    <bean id="mongo" class="com.infinite.framework.core.persistent.MongoClientFactoryBean">
+        <!-- mongoDB的配置对象 -->
+        <property name="mongoClientOptionsDto" ref="mongoOptionsDto"/>
+
+        <!-- 是否主从分离(读取从库)，默认为false，读写都在主库 -->
+        <property name="readSecondary" value="false"/>
+
+        <!-- 设定写策略，默认为WriteConcern.SAFE，优先级高于mongoOptions中的safe -->
+        <property name="writeConcern" value="SAFE"/>
+
+        <!-- 设定服务器列表，默认为localhost:27017 -->
+        <property name="serverStrings">
+            <array>
+                <value>${mongoDB.server}</value>
+            </array>
+        </property>
+    </bean>
+
+
+
+
+    <!--<context:component-scan base-package="com.infinite.iot.repository" />-->
+
+    <!--<bean name="employeeDAO" class="com.infinite.iot.repository.impl.EmployeeDAOImpl">-->
+        <!--<constructor-arg name="ds" ref="datastore" />-->
+    <!--</bean>-->
+
+</beans>

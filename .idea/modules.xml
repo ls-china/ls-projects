@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bs/angularjs/angularjs.iml" filepath="$PROJECT_DIR$/bs/angularjs/angularjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs/bs-core/bs-core.iml" filepath="$PROJECT_DIR$/bs/bs-core/bs-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs/bs-extention/bs-extention.iml" filepath="$PROJECT_DIR$/bs/bs-extention/bs-extention.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs/bs-ui/bs-ui.iml" filepath="$PROJECT_DIR$/bs/bs-ui/bs-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs/bs-user/bs-user.iml" filepath="$PROJECT_DIR$/bs/bs-user/bs-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/down-txt-server/down-txt-server.iml" filepath="$PROJECT_DIR$/app/down-txt-server/down-txt-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ls-projects.iml" filepath="$PROJECT_DIR$/ls-projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/media_downloader/media_downloader.iml" filepath="$PROJECT_DIR$/app/media_downloader/media_downloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/persistent/mongodb/mongodb.iml" filepath="$PROJECT_DIR$/persistent/mongodb/mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/run-down-txt-war/run-down-txt-war.iml" filepath="$PROJECT_DIR$/app/run-down-txt-war/run-down-txt-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs/server/server.iml" filepath="$PROJECT_DIR$/bs/server/server.iml" />
+    </modules>
+  </component>
+</project>
