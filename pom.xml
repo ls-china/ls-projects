@@ -17,6 +17,7 @@
         <module>app/down-txt-server</module>
         <module>app/run-down-txt-war</module>
         <module>app/media_downloader</module>
+        <module>app/app-youku</module>
     </modules>
     <packaging>pom</packaging>
 
